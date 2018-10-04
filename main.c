@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include "my.h"
 
-int main(char ac, char **av)
+int main(int ac, char **av)
 {
     my_print_combn(atoi(av[1]));
     return (0);
